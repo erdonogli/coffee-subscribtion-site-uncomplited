@@ -1,0 +1,96 @@
+@media only screen and (max-width:768px){
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .hero-container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .hero-info {
+        width: 398px;
+    }
+    .hero-info__title {
+        font-size: 1.3em;
+    }
+    .second-info__info {
+        font-size: 95px;
+    }
+    .second-container .cards {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    
+    }
+
+    .second-container .cards .card {
+        display: flex;
+        gap: 40px;
+    }
+    .card--2 {
+        align-items: center;
+        margin-top: -30px;
+    }
+    .card--2 .card__title {
+        width: 255px;
+        text-align: left;
+    }
+    .card--2 .card__text {
+        width: 282px;
+        text-align: left;
+    }
+    .information .information__title {
+        font-size: 32px;
+    }
+    .cards--absolute {
+        flex-direction: column;
+        top: 50%;
+        transform: translate(-50%);
+        gap: 20px;
+    }
+    .card--back {
+        width: 573px;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+    }
+    .card--a {
+        position: absolute;
+        left: 60px;
+        top: 50%;
+        transform: translate(0,-50%);
+    }
+    .card--b {
+        margin-top:0;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translate(0,-50%);
+    }
+    .card--back .card__text {  
+        width: 344px;
+        text-align: left;
+    }
+    .card--back .card__title {
+        margin-top: 0;
+        padding-bottom: 0;
+        text-align: left;
+    }
+    .navigation,.footer-contanier{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .footer-first {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-sec {
+        position: static;
+    }
+}
